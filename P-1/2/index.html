@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <!--===== CSS LINK =====-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active" ><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="btn-img" class="menu-btn">
+    </nav>
+
+     <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+     </header>
+
+     <!-- == Events == -->
+
+     <section class="events">
+        <div class="title">
+            <h1>upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.png" alt="img-1">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo est soluta totam, saepe, et iure sapiente minus, amet dolore mollitia in error quae earum officiis aperiam nihil deleniti sint facilis?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img2.png" alt="img-2">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo est soluta totam, saepe, et iure sapiente minus, amet dolore mollitia in error quae earum officiis aperiam nihil deleniti sint facilis?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+     </section>
+
+     <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE World</h1>
+            <div class="line"></div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta ducimus laudantium corrupti aut. Nostrum a recusandae sequi reprehenderit architecto incidunt minus voluptatem quas quis.</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+     </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta sit consectetur facere, fugiat nobis esse, aliquid asperiores obcaecati, rerum culpa. Voluptate quas facilis quod eveniet assumenda corporis, harum</P>
+               <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/img3.png" alt="img3">
+                    <img src="./img/img4.png" alt="img4">
+                    <img src="./img/img5.png" alt="img5">
+                    <img src="./img/img6.png" alt="img6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Fifth Avenue, NY 10160, New York, USA [ Phone: 800-123-456 ] Email: contact@example.com</p>
+        <p>Copyright @ 2022 Outdoor Adventure</p>
+    </section>
+
+
+
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+
+</body>
+</html>
