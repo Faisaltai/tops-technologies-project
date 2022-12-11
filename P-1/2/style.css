@@ -84,8 +84,9 @@ header {
 .ctn {
     padding: 8px 15px;
     background: #fc036b;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     color: whitesmoke;
+    border-radius: 30px 100px ;
 }
 
 .menu-btn {
@@ -195,8 +196,11 @@ p {
 }
 
 .tours .image-gallery {
-    display: flex;
+    /* display: flex; */
+    display: grid;
     flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
     width: 100%;
     align-items: center;
 }
