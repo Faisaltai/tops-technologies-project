@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tech-2 etc </title>
+   
+   <link rel="stylesheet" href="./style.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+   <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+</head>
+<body>
+   <!-- ======= Navigation bar =======-->
+
+   <nav>
+       <img src="./images/logo.svg" alt="logo">
+       <div class="navigation">
+           <ul>
+               <i id="menu-close" class="fa-solid fa-xmark"></i>
+               <li><a href="./index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a class="active" href="blog.html">Blog</a></li>
+               <li><a href="course.html">Courses</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+           <img id="menu-btn" src="./images/menu.png" alt="menu">
+       </div>
+   </nav>
+
+                   <!--=== = HOME sec = ====-->
+
+
+   <section id="about-home">
+       <h2>Blog /</h2>
+      
+   </section>
+
+                  <!-- === BLOG _ CONTAINER === -->
+
+<section id="blog-container">
+      <div class="blogs">
+        <div class="post">
+            <img src="./images/b1.jpg" alt="img">
+            <h3>Learn Web Development In The Easiest Way</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia esse quis, voluptatibus distinctio similique vel ipsam quae totam modi perspiciatis unde expedita vero harum veniam nihil accusamus hic, reprehenderit assumenda!</p>
+            <a href="post.html">Read More</a>
+        </div>
+        <div class="post">
+            <img src="./images/b2.jpg" alt="img">
+            <h3>Learn Web Development In The Easiest Way</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia esse quis, voluptatibus distinctio similique vel ipsam quae totam modi perspiciatis unde expedita vero harum veniam nihil accusamus hic, reprehenderit assumenda!</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="post">
+            <img src="./images/b3.jpg" alt="img">
+            <h3>Learn Web Development In The Easiest Way</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia esse quis, voluptatibus distinctio similique vel ipsam quae totam modi perspiciatis unde expedita vero harum veniam nihil accusamus hic, reprehenderit assumenda!</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="post">
+            <img src="./images/b4.png" alt="img">
+            <h3>Learn Web Development In The Easiest Way</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia esse quis, voluptatibus distinctio similique vel ipsam quae totam modi perspiciatis unde expedita vero harum veniam nihil accusamus hic, reprehenderit assumenda!</p>
+            <a href="#">Read More</a>
+        </div>
+      </div>
+
+      <div class="cate">
+        <h2>Categories</h2>
+        <hr>
+        <a href="#">Web Development</a>
+        <hr>
+        <a href="#">Web Design</a>
+        <hr>
+        <a href="#">App Development</a>
+        <hr>
+        <a href="#">Frontend Web</a>
+        <hr>
+        <a href="#">Python Programming</a>
+        <hr>
+        <a href="#">JavaScript Hack</a>
+        <hr>
+      </div>
+</section>
+
+
+
+                <!-- Footer sec -->
+
+   <footer>
+       <div class="footer-col">
+           <h3>Top Products</h3>
+           <li>Manage Reputation</li>
+           <li>Power Tools</li>
+           <li>Managed Website</li>
+           <li>Marketing Services</li>
+       </div>
+       <div class="footer-col">
+           <h3>Quick Links</h3>
+           <li>Jobs</li>
+           <li>Brand Assets</li>
+           <li>Investor Relation</li>
+           <li>Terms & Service</li>
+       </div>
+       <div class="footer-col">
+           <h3>Features</h3>
+           <li>Manage Reputation</li>
+           <li>Power Tools</li>
+           <li>Managed Website</li>
+           <li>Marketing Services</li>
+       </div>
+       <div class="footer-col">
+           <h3>Resources</h3>
+           <li>Guides</li>
+           <li>Research</li>
+           <li>Experts</li>
+           <li>Marketing Service</li>
+       </div>
+       
+       <div class="footer-col">
+           <h3>Newsletter</h3>
+           <p>You can trust us. we only send promo offers, </p>
+           <div class="subscribe">
+               <input type="text" placeholder="Your Email address">
+               <a href="#" class="yellow">SUBSCRIBE</a>
+           </div>
+       </div>
+
+
+       <div class="copyright">
+           <p>Copyright @2022 All right reserved | This template is made by Groot</p>
+           <div class="pro-links">
+               <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-instagram"></i>
+               <i class="fa-brands fa-linkedin"></i>
+           </div>
+       </div>
+
+   </footer>
+
+               <!-- js script -->
+
+
+   <script>
+       $('#menu-btn').click(function() {
+           $('nav .navigation ul').addClass('active')
+       });
+       $('#menu-close').click(function() {
+           $('nav .navigation ul').removeClass('active')
+       });
+   </script>
+</body>
+</html>
