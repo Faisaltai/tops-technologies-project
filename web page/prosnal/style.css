@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/bg-img.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin:10px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgba(116, 106, 106, 0.023);
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    margin-right: -35%;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nav-list .nav-link {
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.nav-item i {
+    color: rgba(248, 58, 58, 0.819);
+}
+
+.nav-btn {
+    /* position: relative; */
+    padding: 10px;
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 1px solid rgba(242, 40, 40, 0.52);
+    color: rgba(248, 58, 58, 0.819);
+    background: none;
+    cursor: pointer;
+}
+
+.nav-btn1 {
+    /* position: absolute; */
+    font-size: 15px;
+    font-weight: 500;
+    border: none; 
+    background: none;
+    cursor: pointer;
+}
+
+
+.head-container {
+    margin-top: 20px;
+    display: flex;
+}
+
+.head-container .left-sec {
+    flex: 1;
+    width: 50%;
+    margin: 20px;
+    padding: 15px;
+}
+
+.title span {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.header-title {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.header-subtitle{
+    text-align: center;
+    justify-content: center;
+}
+
+.head-container .head-1 {
+    margin-bottom: 20px;
+}
+
+.head-container .head-1 img {
+    width: 250px;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.left-main .head-1 p {
+    width: 40%;
+    margin-top: 10px;
+}
+
+.left-main {
+    display: flex;
+    gap: 20px;
+}
