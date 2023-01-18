@@ -196,16 +196,16 @@ header {
 
 }
 
-.services-content {
+.service-content {
     padding: 3rem;
 }
 
-.services-content h1 {
+.service-content h1 {
     font-size: 6vmin;
     margin-bottom: 30px;
 }
 
-.services-content p {
+.service-content p {
     padding-right: 6rem;
     margin-bottom: 30px;
 }
