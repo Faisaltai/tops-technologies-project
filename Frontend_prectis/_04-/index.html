@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Learn Coding</title>
     <!-- BOOTSTRAP LINK -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
     <!-- Main CSS  -->
     <link rel="stylesheet" href="./style.css">
     <!-- Google Font CDN -->
@@ -16,14 +20,18 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <!-- NavBar Sec -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light bg-white px-4 border-bottom fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Logo Name</a>
+          <!-- <a class="navbar-brand" href="#">Coding </a> -->
+          <h1 class="navbar-brand fs-2" href="#"
+                >Let's - <span class="text-danger">Coding</span></h1
+              >
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -45,16 +53,16 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
+            <!-- <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline" type="submit">Search</button>
-            </form>
+            </form> -->
           </div>
         </div>
       </nav>
 
-
-      <header>
+                          <!-- Header Sec -->
+      <header id="home">
         <div id="carouselExampleCaptions" class="carousel slide">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -95,9 +103,295 @@
         </div>
       </header>
 
+                              <!-- About Sec -->
+
+      <section id="about">
+        <div class="row">
+          <h1 class="text-center mt-5"> About <span class="text-danger">us</span></h1>
+          <p class="text-center">Let's Check About us</p>
+        </div>
+
+        <section id="about-section">
+          <!-- about left  -->
+          <div class="about-left">
+              <img src="./images/about-us-3.webp" alt="About Img"/>
+          </div>
+
+          <!-- about right  -->
+          <div class="about-right">
+              <!-- <h4>My Story</h4>
+              <h1>About Me</h1> -->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis fugiat a dolorem at similique maxime dolorum dolore
+                  enim dicta voluptatibus, illum recusandae, vel optio tempore
+                  ipsum incidunt eum. Aspernatur, repellendus.
+              </p>
+              <div class="address">
+                  <ul>
+                      <li>
+                          <span class="address-logo">
+                              <i class="fas fa-paper-plane"></i>
+                          </span>
+                          <p>Address</p>
+                          <span class="saprater">:</span>
+                          <p>Surat, Gujarat, India</p>
+                      </li>
+                      <li>
+                          <span class="address-logo">
+                              <i class="fas fa-phone-alt"></i>
+                          </span>
+                          <p>Phone No</p>
+                          <span class="saprater">:</span>
+                          <p>+91 012-345-6789</p>
+                      </li>
+                      <li>
+                          <span class="address-logo">
+                              <i class="far fa-envelope"></i>
+                          </span>
+                          <p>Email ID</p>
+                          <span class="saprater">:</span>
+                          <p>Mickeyvirus575@gmail.com</p>
+                      </li>
+                  </ul>
+              </div>
+              <div class="expertise">
+                  <h3>My Expertise</h3>
+                  <ul>
+                      <li>
+                          <span class="expertise-logo">
+                              <i class="fab fa-html5"></i>
+                          </span>
+                          <p>HTML</p>
+                      </li>
+                      <li>
+                          <span class="expertise-logo">
+                              <i class="fab fa-css3-alt"></i>
+                          </span>
+                          <p>CSS</p>
+                      </li>
+                      <li>
+                          <span class="expertise-logo">
+                              <i class="fab fa-node-js"></i>
+                          </span>
+                          <p>Java Script</p>
+                      </li>
+                      <li>
+                          <span class="expertise-logo">
+                              <i class="fab fa-react"></i>
+                          </span>
+                          <p>React Js</p>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+
+  </section>
+
+
+
+  
+
+                  <!-- Why Choose Me -->
+                <section id="why-choose-me" class="why-choose-me">
+                  <div class="row">
+                    <h1 class="text-center mt-5"> Why Choose <span class="text-danger">Me ? </span></h1>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam vero facilis fugit itaque sit <br> ullam dolorem ab ut vitae laboriosam consectetur corrupti excepturi.</p>
+                  </div>
+
+                  <div class="pt-5 pb-5">
+                    <div class="container">
+                      <div class="row">
+                        <!-- <div class="section-head col-sm-12">
+                          <h4><span>Why Choose</span> Me?</h4>
+                          <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's<br>standard dummy text ever since the 1500s, when an unknown book.</p>
+                        </div> -->
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
+                            <h6>Modern Design</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
+                            <h6>Creative Design</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-hourglass-half"></i></span>
+                            <h6>Your Photoshoping</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
+                            <h6>Business Growth</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="item"> <span class="icon feature_box_col_five"><i class="fa fa-upload"></i></span>
+                            <h6>Market Strategy</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="item"> <span class="icon feature_box_col_six"><i class="fa fa-camera"></i></span>
+                            <h6>Retina Ready</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </section>
+
+
+                <!--  Our Services  -->
+
+                <!-- ======================================== 
+                      Our Services  Section Start  
+                ========================================  -->
+
+    <section class="section section-services">
+      <!-- <div class="container">
+        <h2 class="common-heading">Services Offers</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ex
+          dolores tempore possimus, mollitia vero quas
+        </p>
+      </div> -->
+
+      <div class="row">
+        <h1 class="text-center"> Our <span class="text-danger"> Services </span></h1>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam vero facilis fugit itaque sit <br> ullam dolorem ab ut vitae laboriosam consectetur corrupti excepturi.</p>
+      </div>
+
+      <!-- services offers card  -->
+      <div class="container grid grid-three-column">
+        <div class="service-box">
+          <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+          <h3>Web Design</h3>
+          <p>
+            “It is not because things are difficult that we do not dare; it is
+            because we do not dare that they are difficult.”
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="logo-react" class="service-icon"></ion-icon>
+          <h3>web development</h3>
+          <p>
+            “It is not because things are difficult that we do not dare; it is
+            because we do not dare that they are difficult.”
+          </p>
+        </div>
+
+        <div class="service-box">
+          <!-- <ion-icon name="camera-sharp" class="service-icon"></ion-icon> -->
+          <ion-icon name="camera-outline" class="service-icon"></ion-icon>
+          <h3>photography</h3>
+          <p>
+            “It is not because things are difficult that we do not dare; it is
+            because we do not dare that they are difficult.”
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="phone-portrait-sharp" class="service-icon"></ion-icon>
+          <h3>Mobile Apps</h3>
+          <p>
+            “It is not because things are difficult that we do not dare; it is
+            because we do not dare that they are difficult.”
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="globe-sharp" class="service-icon"></ion-icon>
+          <h3>apps interface</h3>
+          <p>
+            “It is not because things are difficult that we do not dare; it is
+            because we do not dare that they are difficult.”
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="images-sharp" class="service-icon"></ion-icon>
+          <h3>graphic design</h3>
+          <p>
+            “It is not because things are difficult that we do not dare; it is
+            because we do not dare that they are difficult.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+                <!-- Our Team  -->
+
+<section id="our-team">
+  <div class="row">
+    <h1 class="text-center mt-5"> Our <span class="text-danger">Team</span></h1>
+    <p class="text-center">Let's Check Our Team</p>
+  </div>
+
+  <div class="main">
+    <div class="profile-card">
+        <div class="img">
+            <img src="./images/team-2.jpeg">
+        </div>
+        <div class="caption">
+            <h3>Vin Diesel</h3>
+            <p>Senior App Developer</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="profile-card">
+        <div class="img">
+            <img src="./images/team-5.jpeg">
+        </div>
+        <div class="caption">
+            <!-- <h3>David Corner</h3> -->
+            <h3>Mia O'Corner</h3>
+            <p>Front End Developer</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="profile-card">
+        <div class="img">
+            <img src="./images/team-1.jpeg">
+        </div>
+        <div class="caption">
+            <h3>Tom Cruise</h3>
+            <p>Full Stact Developer</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
 
         <!-- Separate Link -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
